@@ -1,22 +1,15 @@
     div{
-        filter:alpha(Opacity=80);-moz-opacity:0.5;opacity:0.5;
+        filter:alpha(Opacity=90);-moz-opacity:0.6;opacity:0.6;
+        background: linear-gradient(to bottom right, blue, pink);
+        position: relative;
+        border: 1px solid #ebd89d;
+        line-height: 5px;
 }
 #one {
         height: 30vh;
         width: 40ch;
         left: 0px;
         top: 0px;
-    }
-    
-    #one,
-    #two {
-        background:Azure ;
-        position: relative;
-        border: 1px solid #ebd89d;
-        line-height: 5px;
-        /*字体间距*/
-        /* background: #eff7ff*/
-        /*display: inline;*/
     }
     
     #two {
