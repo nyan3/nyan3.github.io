@@ -3,7 +3,8 @@
       
 }
 #one,two{
-  background: linear-gradient(to bottom right, pink, blue);
+ /* background: linear-gradient(to bottom right, pink, blue);*/
+     background-image: linear-gradient(to right, #fa709a 0%, #fee140 100%);
         position: relative;
         border: none;
         line-height: 5px;
