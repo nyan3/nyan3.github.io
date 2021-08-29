@@ -7,17 +7,18 @@
      background-image: linear-gradient(to right, #fa709a 0%, #fee140 100%);
         position: relative;
         border: none;
-        line-height: 5px;
+        /*line-height: 5px;*/
+        height:auto;
 }
 #one {
-        height: 30vh;
+        /*height: 30vh;height:auto;/
         width: 40ch;
         left: 0px;
         top: 0px;
     }
     
     #two {
-        height: 30vh;
+       /* height: 30vh;*/
         width: 40ch;
         left: 90vh;
         top: -175px;
