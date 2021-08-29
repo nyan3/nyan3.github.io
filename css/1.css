@@ -1,4 +1,7 @@
-    #one {
+    div{
+        filter:alpha(Opacity=80);-moz-opacity:0.5;opacity:0.5;
+}
+#one {
         height: 30vh;
         width: 40ch;
         left: 0px;
