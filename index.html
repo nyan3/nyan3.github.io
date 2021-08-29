@@ -4,10 +4,9 @@
 <link rel="icon" type="image/gif" href="cources/1.png">
 </style>
 <script>
-	var domain = document.domain;
-	if (domain===“nyan2.cf”||dmain==="nyan2.github.io"){}else{
-	document.getElementById('div1').innerHTML == '此网站为盗版,请访问<a href="nyan.cf">原网站</a>';
-	document.getElementById('two').innerHTML == '此网站为盗版,请访问<a href="nyan.cf">原网站</a>';
+	if (document.domain!=“nyan2.cf”&&document.domain!="nyan2.github.io"){
+	document.getElementById('div1').innerHTML ='此网站为盗版,请访问<a href="nyan.cf">原网站</a>';
+	document.getElementById('two').innerHTML ='此网站为盗版,请访问<a href="nyan.cf">原网站</a>';
 	}
 </script>
 <body>
