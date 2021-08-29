@@ -3,7 +3,7 @@
       
 }
 #one,two{
-  background: linear-gradient(to bottom right, blue, pink);
+  background: linear-gradient(to bottom right, pink, blue);
         position: relative;
         border: 1px solid #ebd89d;
         line-height: 5px;
