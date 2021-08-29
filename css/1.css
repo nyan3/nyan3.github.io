@@ -1,6 +1,9 @@
     div{
         filter:alpha(Opacity=90);-moz-opacity:0.8;opacity:0.8;
-        background: linear-gradient(to bottom right, blue, pink);
+      
+}
+#one,two{
+  background: linear-gradient(to bottom right, blue, pink);
         position: relative;
         border: 1px solid #ebd89d;
         line-height: 5px;
