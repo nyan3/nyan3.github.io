@@ -9,18 +9,19 @@
         border: none;
         /*line-height: 5px;*/
         height:auto;
+     float:left
 }
 #one {
         /*height: 30vh;height:auto;/
         width: 40ch;
-        left: 0px;
+         /*left: 0px;*/
         top: 0px;
     }
     
     #two {
        /* height: 30vh;*/
         width: 40ch;
-        left: 90vh;
+        /* left: 90vh;*/
         top: -175px;
     }
     
