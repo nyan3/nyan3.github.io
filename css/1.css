@@ -7,13 +7,15 @@
      background-image: linear-gradient(to right, #fa709a 0%, #fee140 100%);
         position: relative;
         border: none;
-    width:40px
+        width:40px
         /*line-height: 5px;*/
         height:auto;
-     float:left
+    /* float:left*/
 }
+/*
     #body {
         margin: 0;
         padding: 0;
-        /*overflow: hidden;*/
+
+*/
     }
