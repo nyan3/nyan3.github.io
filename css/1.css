@@ -5,7 +5,7 @@
 #one,two{
   background: linear-gradient(to bottom right, pink, blue);
         position: relative;
-        border: 1px solid #ebd89d;
+        border: none;
         line-height: 5px;
 }
 #one {
