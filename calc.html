@@ -1,0 +1,72 @@
+﻿<html>
+<body>
+    <input type="number" id="a" oninput="fullcheck();">x^+
+    <input type="number" id="b" oninput="fullcheck();">x+
+    <input type="number" id="c" oninput="fullcheck();">=
+    <input type="number" id="d" oninput="fullcheck();"><br><br>
+    x1=<input type="text" id="result1" readonly="readonly"><br><br>
+    x2=<input type="text" id="result2" readonly="readonly">
+</body>
+    <script>
+        function fullcheck(){
+        var a1=document.getElementById("a");
+        var b1=document.getElementById("b");
+        var c1=document.getElementById("c");
+        var d1=document.getElementById("d");
+        if(a.value!=''){
+            if(typeof(a1.value)&&typeof(b1.value)&&typeof(c1.value)){
+            cha=c1.value-d1.value;
+            cout1(a1.value,b1.value,cha);
+            }
+        }
+        }
+        function cout1(a,b,c){
+        var result1=document.getElementById("result1");
+        var result2=document.getElementById("result2");
+        var a,b,c,disc,x1,x2;
+
+        disc=Math.pow(b,2)-4*a*c;
+        //disc=((-b)+Math.pow((Math.pow(b,2)-4*a*c),0.5))/2*a;
+        if(disc<0){
+            result1.value='无实根';
+            result2.value='无实根';
+            //document.write('无实根');
+        }else{
+
+    var y = String(Math.sqrt(disc)).indexOf(".") + 1;//获取小数点的位置
+    if(y > 0) {
+    NaN0=2*a;
+    NaN1=(-b)
+    x1= NaN1 + "√" + disc + "/" + NaN0;
+    x2= NaN1 + "-" + "√" + disc + "/" + NaN0;
+        //这个数字是小数
+    } else {
+        //不是小数
+            x1=(((Math.sqrt(disc))-b)/2*a)*-1;
+            x2=(Math.sqrt(disc)-b)/2*a;
+    }
+    result1.value=x1;
+    result2.value=x2;
+        }
+    }
+        </script>
+
+<style type="text/css">
+#a{
+height:20px;
+width:50px;
+}
+#b{
+height:20px;
+width:50px;
+}
+#c{
+height:20px;
+width:50px;
+}
+#d{
+height:20px;
+width:50px;
+}
+</style>
+</html>
