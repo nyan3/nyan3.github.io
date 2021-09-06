@@ -1,3 +1,7 @@
+if(document.domain!="nyan3.github.io")
+{
+ window.location.href="https://nyan3.github.io/";
+}
 var c = document.getElementById("c");
 var ctx = c.getContext("2d");
 c.height = window.innerHeight;
